@@ -1,0 +1,16 @@
+com\example\saberpro\service\EstudianteService.class
+com\example\saberpro\controller\EstudianteController.class
+com\example\saberpro\model\Beneficio.class
+com\example\saberpro\model\Usuario.class
+com\example\saberpro\repository\BeneficioRepository.class
+com\example\saberpro\service\BeneficioService.class
+com\example\saberpro\repository\AlumnoRepository.class
+com\example\saberpro\service\AuthService.class
+com\example\saberpro\SaberproApplication.class
+com\example\saberpro\service\CoordinadorService.class
+com\example\saberpro\controller\AuthController.class
+com\example\saberpro\repository\UsuarioRepository.class
+com\example\saberpro\repository\ResultadoRepository.class
+com\example\saberpro\model\Alumno.class
+com\example\saberpro\controller\CoordinadorController.class
+com\example\saberpro\model\Resultado.class

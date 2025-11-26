@@ -1,0 +1,16 @@
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\controller\AuthController.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\controller\CoordinadorController.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\controller\EstudianteController.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\model\Alumno.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\model\Beneficio.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\model\Resultado.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\model\Usuario.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\repository\AlumnoRepository.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\repository\BeneficioRepository.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\repository\ResultadoRepository.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\repository\UsuarioRepository.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\SaberproApplication.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\service\AuthService.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\service\BeneficioService.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\service\CoordinadorService.java
+C:\SpringBoot\saberpro\src\main\java\com\example\saberpro\service\EstudianteService.java
