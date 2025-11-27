@@ -16,11 +16,13 @@ public class AuthController {
 
     @GetMapping("/")
     public String root() {
+        System.out.println(">>> Entró a / (root), redirigiendo a /login");
         return "redirect:/login";
     }
 
     @GetMapping("/login")
     public String loginPage() {
+        System.out.println(">>> Entró a GET /login, devolviendo vista login.jsp");
         return "login";
     }
 
