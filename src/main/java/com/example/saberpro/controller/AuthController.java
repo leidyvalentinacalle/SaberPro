@@ -16,14 +16,14 @@ public class AuthController {
 
     @GetMapping("/")
     public String root() {
-        System.out.println(">>> Entró a / (root), redirigiendo a /login");
-        return "redirect:/login";
+        System.out.println(">>> Entró a / (root), redirigiendo a /index");
+        return "redirect:/index";
     }
 
-    @GetMapping("/login")
+    @GetMapping("/index")
     public String loginPage() {
-        System.out.println(">>> Entró a GET /login, devolviendo vista login.jsp");
-        return "login";
+        System.out.println(">>> Entró a GET /index, devolviendo vista index.jsp");
+        return "index";
     }
 
     @PostMapping("/login")
@@ -48,17 +48,17 @@ public class AuthController {
                 return "redirect:/estudiante/dashboard";
             } else {
                 model.addAttribute("error", "No se encontró alumno con ese correo.");
-                return "login";
+                return "index";
             }
         }
 
         model.addAttribute("error", "Seleccione un tipo de usuario válido.");
-        return "login";
+        return "index";
     }
 
     @GetMapping("/logout")
     public String logout(HttpSession session) {
         session.invalidate();
-        return "redirect:/login";
+        return "redirect:/index";
     }
 }
